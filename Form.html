@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Orrin Monroe 7/26/23 form page-->
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="final.css">
+        <title>My Portfolio Website</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Final">
+        <meta name="author" content="Orrin Monroe">
+    </head>
+
+    <div id="wrapper">
+
+     <body>
+       <main>
+
+        <header><nav><ul>
+            <a href="Final.html"> Home </a>
+            <a href="Portfolio.html"> Projects </a>
+            <a href="CourseObjectives.html"> Objectives </a>
+            <a href="Form.html"> Employers </a>
+            <a href="Resume.docx"> Resume </a>
+        </ul></nav></header>
+
+        <div id="placeholder"></div>
+        <div id="page">
+
+          <h2> Want To Hire Me? </h2>
+            <h3> Contact Me! </h3>
+
+                <form action="mailto:omonroe@stumail.jccc.edu" method="post" enctype="text/plain"/>
+                  <label for="todaysDate">Todays Date:</label>
+                  <input type="date"><br><br>
+                  <label for="companyName">Company Name:</label>
+                  <input type="text" required id="companyName" name="companyName"><br><br>
+                  <label for="contactName">Contact Name:</label>
+                  <input type="text" required id="contactName" name="contactName"><br><br>
+                  <label for="jobLevel">Level of Job Offered:</label><br>
+                  <select name="jobLevel" id="jobLevel" multiple size="3">
+                    <option value="">Internship</option>
+                    <option value="">Entry Level</option>
+                    <option value="">Other</option>
+                  </select><br>
+                  <label for="jobNumber">Number of Job Openings:</label><br>
+                  <input type="checkbox" name="1">
+                  <label for="1">1</label>
+                  <input type="checkbox" name="2">
+                  <label for="2">2</label>
+                  <input type="checkbox" name="3+">
+                  <label for="3+">3+</label><br><br>
+                  <label for="contact">Prefered Means of Contact:</label><br><br>
+                  <input type="radio" id="Phone" name="contact" value="Phone">
+                  <label for="Phone">Phone</label>
+                  <label for="Phone"> Number:</label>
+                  <input type="text" id="Phone" name="Phone" maxlength="12"><br><br>
+                  <input type="radio" id="E-Mail" name="contact" value="E-Mail">
+                  <label for="E-Mail">E-Mail</label>
+                  <label for="Email">:</label>
+                  <input type="text" id="Email" name="Email"><br><br>
+                  <input type="radio" id="Other" name="contact" value="Other">
+                  <label for="Other">Other</label>
+                  <label for="ifOther">:</label>
+                  <textarea id="ifOther" name="ifOther" rows="2" cols="50"></textarea>
+                  <br><br>
+                  <input type="submit" id ="submit" value="Email Me"/> <input type="reset" name="Clear">
+                </form><br><br>
+
+          <footer>
+            Copyright &copy; 2023 JCCC Web Development and Digital Media
+          <br>
+          <ul>
+          <a href="mailto:omonroe@stumail.jccc.edu">omonoroe@stumail.jccc.edu</a>
+          <a href="github.com">github.com</a>
+          <a href="linkedin.com">linkedin.com</a>
+          </ul>
+          </footer>
+
+        </div>
+
+      </main>
+    </body>
+    </div>
+</html>

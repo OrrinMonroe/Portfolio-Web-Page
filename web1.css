@@ -1,0 +1,44 @@
+/* Orrin Monroe 07/24/2023 */
+body
+{
+	background-color:black;
+}
+p
+{
+	color: limegreen;	
+}
+b
+{
+	color:blueviolet;
+}
+h1
+{
+	color: red;
+}
+h2
+{
+	color: red;
+	
+}
+#wrapper
+{
+	width: 75%;
+	align-content: center;
+}
+#happyGoat
+{
+	color: yellow;
+}
+#sadPanda
+{
+	color: darkred;
+}
+img
+{
+	width: 20%;
+	max-height: 10%;
+}
+.hide
+{
+	display: none;
+}
